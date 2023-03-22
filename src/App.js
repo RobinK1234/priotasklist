@@ -10,19 +10,19 @@ import Tasks from "./components/Tasks/Tasks";
 const DUMMY_TASKS = [
     {
         id: 'e1',
-        date: new Date(2023, 0, 10),
+        date: new Date(2023, 9, 11),
         title: 'aaa',
         priority: 'low'
     },
     {
         id: 'e2',
-        date: new Date(2023, 0, 5),
+        date: new Date(2023, 8, 3),
         title: 'bbb',
         priority: 'medium'
     },
     {
         id: 'e3',
-        date: new Date(2023, 3, 8),
+        date: new Date(2023, 6, 7),
         title: 'ccc',
         priority: 'high'
     },
