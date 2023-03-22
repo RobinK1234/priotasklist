@@ -1,0 +1,8 @@
+.tasks {
+    padding: 2rem;
+    background-color: rgb(260, 260, 260);
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 40rem;
+    border-radius: 20px;
+}

@@ -1,0 +1,46 @@
+.control label,
+.control input {
+    display: block;
+}
+
+.new-task__control {
+    margin: 1rem 0;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.new-task__control label {
+    color: #464646;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.new-task__control input {
+    flex: 3;
+    width: 100%;
+    font: inherit;
+    padding: 0.35rem 0.35rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.new-task__control input:focus {
+    outline: none;
+    border-color: #005f16;
+    background: #76c484;
+}
+
+.new-task__control select {
+    flex: 3;
+    width: 100%;
+    font: inherit;
+    padding: 0.35rem 0.35rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.new-task__actions {
+    text-align: center;
+}

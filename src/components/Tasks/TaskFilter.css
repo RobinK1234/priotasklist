@@ -1,0 +1,19 @@
+.task-filter__control {
+    color: #464646;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.task-filter label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.task-filter select {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+}
